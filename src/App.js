@@ -12,12 +12,16 @@ const customer = {
 class App extends Component {
   render() {
     return (
-      <Customer 
-        name={customer.name}
-        birthday={customer.birthday}
-        gender={customer.gender}
-        job={customer.job}
-      /> 
+      <div>
+        <Customer 
+          name={customer.name}
+          birthday={customer.birthday}
+          gender={customer.gender}
+          job={customer.job}
+        />
+
+        <TodoListTemplate />
+      </div> 
     );
   }
 }

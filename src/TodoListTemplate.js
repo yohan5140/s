@@ -1,5 +1,5 @@
 import React from 'react';
-import './TodoListTemplate.css';
+import '/components/TodoListTemplate.css';
 
 const TodoListTemplate = ({form, children}) => {
     return(
@@ -16,3 +16,4 @@ const TodoListTemplate = ({form, children}) => {
         </main>
     );
 };
+export default TodoListTemplate;
