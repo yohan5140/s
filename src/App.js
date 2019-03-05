@@ -4,7 +4,7 @@ import Customer from './components/Customer';
 
 const customer = {
   'name': '홍길동',
-  'birthday': '910232',
+  'birthday': '9102323',
   'gender': '남자',
   'job': '대학생'
 }
@@ -16,7 +16,7 @@ class App extends Component {
         name={customer.name}
         birthday={customer.birthday}
         gender={customer.gender}
-        job={customer}
+        job={customer.job}
       /> 
     );
   }
