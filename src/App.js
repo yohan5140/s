@@ -4,6 +4,7 @@ import Customer from './components/Customer';
 import TodoListTemplate from './components/TodoListTemplate';
 import './components/TodoListTemplatea.css'
 import Form from './components/Form';
+import TodoItemList from './components/TodoItemList';
 
 const customer = {
   'name': '홍길동',
@@ -24,7 +25,7 @@ class App extends Component {
         />
 
         <TodoListTemplate form={<Form/>}>
-         템플릿 완성
+         <TodoItemList/>
         </TodoListTemplate>
       </div> 
     );
