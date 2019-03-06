@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Customer from './components/Customer';
+import TodoListTemplate from './components/TodoListTemplate';
+import './components/TodoListTemplatea.css'
 
 const customer = {
   'name': '홍길동',
@@ -20,7 +22,9 @@ class App extends Component {
           job={customer.job}
         />
 
-        <TodoListTemplate />
+        <TodoListTemplate>
+        
+        </TodoListTemplate>
       </div> 
     );
   }
