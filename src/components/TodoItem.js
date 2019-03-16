@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './compononts/TodItem.css';
+import './TodoItem.css';
 
 class TodoItem extends Component {
     render() {
@@ -11,7 +11,7 @@ class TodoItem extends Component {
                   e.stopPropagation(); //onToggle 이 실행되지 않도록 함
                   onRemove(id)}  
                 }>&times;</div>
-                <div className={'todo-text ${checked && checked}'}>
+                <div className={`todo-text ${checked && 'checked'}`}>
                     <div>{text}</div>
                 </div>
                 {
